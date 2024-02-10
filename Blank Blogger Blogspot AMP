@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html amp='amp' lang='en'>
+&lt;head&gt;
+<meta content='summary_large_image' name='twitter:card'/>
+    <meta expr:content='data:blog.postImageUrl' property='twitter:image'/>
+    <meta expr:content='data:blog.pageName' name='twitter:title'/>
+    <b:if cond='data:blog.pageType != &quot;index&quot;'>
+    <meta content='article' property='og:type'/>
+    <b:else/>
+    <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb9AMqp5BleQhLXijLVdHhEckE0d_7FtsYWoFM6ycHJJDY9IjQ3lSmtkC5AJlSGsu6m7XaCVcUPXp6v9QKnC5XL-kAVgHpbFQuvr_cfRDeGw0disWjaw4HnHuCqWuVe-ThChRZs7UqsH89cjt9LSb8knoJW18q6RFX_OHSr7NQCUggYYjtrlmNIsoUkmw/s1600/logo-rasarab.png' property='og:image'/>
+    <meta content='blog' property='og:type'/>
+    </b:if>
+    <meta expr:content='data:blog.title' property='og:site_name'/>
+    <b:if cond='data:blog.metaDescription'>
+    <meta expr:content='data:blog.metaDescription' property='og:description'/>
+	<meta expr:content='data:blog.metaDescription' property='twitter:description'/>
+    </b:if>
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+  <title><data:blog.pageTitle/></title>
+  <b:else/>
+  <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+  <title><data:blog.pageName/> - <data:blog.title/></title>
+  </b:if></b:if>
+  <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+  <title>Halaman Tidak Ditemukan - <data:blog.title/></title>
+  </b:if>
+  <b:if cond='data:blog.pageType == &quot;archive&quot;'>
+  <meta content='noindex' name='robots'/>
+  </b:if>
+  <b:if cond='data:blog.searchLabel'>
+  <meta content='noindex,nofollow' name='robots'/>
+  </b:if>
+  <b:if cond='data:blog.isMobile'>
+  <meta content='noindex,nofollow' name='robots'/>
+  </b:if>
+  <b:include data='blog' name='all-head-content'/>
+  <meta charset='utf-8'/>
+  <link expr:href='data:blog.url' rel='amphtml'/>
+  <script async='async' src='https://cdn.ampproject.org/v0.js'/>
+  <script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'/>
+<b:if cond='data:blog.pageType != &quot;index&quot;'>
+	<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+  <script async='async' custom-element='amp-social-share' src='https://cdn.ampproject.org/v0/amp-social-share-0.1.js'/>
+	</b:if>
+  </b:if>
+  <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
+  <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,Roboto:300,400italic,400,500,500italic,700,700italic,900%7CMaterial+Icons' rel='stylesheet' type='text/css'/>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'/>
+  &lt;!--<b:skin><![CDATA[
+
+/*
+-----------------------------------------------
+Blogger Template Style [Info]
+Name           : BlankAMP
+Theme Date     : 2 Januari 2024
+Designer       : iQbal Khan
+Designer URL   : http://www.rasarab.my.id
+----------------------------------------------- */
+
+]]></b:skin>
+<style amp-custom='amp-custom'>
+</style>
+&lt;/head&gt;&lt;!--<head/>--&gt;
+<body>
+<b:if cond='data:blog.pageType in {&quot;static_page&quot;,&quot;index&quot;}'>
+<amp-iframe frameborder='0' height='0' layout='responsive' src='https://www.google.com/' width='0'>
+</amp-iframe>
+</b:if>
+  <b:section class='main' id='main' showaddelement='yes'/>
+&lt;!--</body>--&gt;&lt;/body&gt;
+</html>
